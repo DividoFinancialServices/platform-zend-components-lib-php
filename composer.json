@@ -1,0 +1,20 @@
+{
+    "name": "divido/platform-zend-components-lib",
+    "description": "These components are extracted from platform, and are extracted here so that they can be imported by Composer in the usual way instead of having to work around them.",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Steve Hill",
+            "email": "steve.hill@divido.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Divido\\": "lib/Divido/"
+        }
+    }
+}
